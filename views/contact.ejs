@@ -1,0 +1,74 @@
+<%- include('partials/header') %>
+<form class="">
+
+<!--Reinsert action="email" method="post" above and remove href to restore email service-->
+
+<div class="p-5 mb-4 break">
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-md">
+        <div class="form-floating">
+          <input id="name" class="form-control" type="text" size="19" name="name" maxlength="250" placeholder="Name">
+          <label for="floatingInputGrid">Name</label>
+        </div>
+      </div>
+
+      <div class="col-md">
+        <div class="form-floating">
+          <input class="form-control" type="email" name="email" maxlength="250" placeholder="Email address">
+          <label for="floatingInputGrid">Email address</label>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="form-floating">
+          <input class="form-control" type="tel" name="tel" maxlength="10" placeholder="Phone number">
+          <label for="floatingInputGrid">Phone number</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<br>
+<br>
+
+
+  <div class="form-floating container">
+    <div class="row g-3">
+      <div class="col-md">
+        <div class="form-floating">
+          <select name="service" class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+            <option selected>Open this select menu</option>
+            <option value="Lawn mowing">Lawn mowing</option>
+            <option value="Landscaping">Landscaping</option>
+            <option value="Mulching">Mulching</option>
+            <option value="Leaf/Yard waste removal">Leaf/Yard waste removal</option>
+            <option value="Planting">Planting</option>
+            <option value="Trimming or removal">Trimming or removal</option>
+            <option value="Other">Other (Please explain in message)</option>
+          </select>
+          <label for="floatingSelectGrid">What are you looking for?</label>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="form-floating">
+          <textarea id="floatingTextarea" class="form-control" name="message" placeholder="Message"></textarea>
+          <label for="floatingInputGrid">Message (Optional)</label>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--<div class="container d-flex justify-content-evenly">
+    <button type="submit" class="btn btn-lg">Send Email</button>
+    Remove this comment to restore email button
+  </div>-->
+</form>
+  <div class="container d-flex justify-content-evenly">
+    <a href="/nomore" class="btn btn-lg">Send Email</a>
+  </div>
+</div>
+
+    
+
+<%- include('partials/footer') %>

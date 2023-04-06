@@ -1,0 +1,196 @@
+
+body{
+  margin: 5px 0 0 0;
+  overflow-x: hidden;
+}
+
+h1{
+  color: #3F7802;
+}
+
+h2, p{
+  color: #fff;
+}
+
+h3{
+  color: #3F7802;
+}
+
+h4{
+   color: #3F7802;
+   margin-top: 10%;
+   text-align: center;
+ }
+
+
+/* Navbar */
+.navbar{
+  background: #fff;
+}
+
+.navbar-toggler{
+  color: #56A403;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(86, 164, 3)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ }
+
+.nav-link{
+  color: #56A403;
+  font-weight: 500;
+}
+
+.nav-link:hover{
+  color: #3F7802;
+  font-weight: bolder;
+}
+
+.socials{
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 155%;
+  color: #56A403;
+}
+
+.notice{
+  color: #3F7802;
+}
+
+/* slideshow */
+.w-100 {
+  width: 100% !important;
+  height: 83vh;
+}
+
+.caption-padding{
+  padding-bottom: 25%;
+}
+
+.carousel-caption h5{
+  font-weight: bolder;
+  font-size: 4.5rem;
+  padding-bottom: 15.5rem;
+}
+
+
+/* Sections */
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.break{
+  background-color: #3F7802;
+  padding: 1% 0;
+}
+
+.btn{
+  color: #fff;
+  background-color: #56A403;
+  padding: 1.5%;
+  margin: 1.5% 0;
+}
+
+.centercol{
+  text-align: center;
+  justify-content: center;
+}
+
+.services{
+  padding: 1.5%;
+  text-align: center;
+}
+
+.services h1{
+  padding-bottom: 1.5%;
+}
+
+.card{
+  width: 18rem;
+}
+
+.card p{
+  color: #202020;
+}
+
+.services img{
+  width: 25em;
+  height: 25em;
+  padding: 5%
+}
+
+.testomonial{
+  margin: 1.5% 0;
+  padding: 3%;
+  font-weight: 600;
+  color: #202020;
+}
+
+.footer p{
+  color: #202020;
+}
+
+.heros p{
+  color: #202020;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.centerJumbotron{
+  margin: 1% 25%;
+}
+
+.break h1, h6{
+  color: #FFF;
+}
+
+.portfolioimg{
+  width:  100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about{
+  color: #202020;
+  text-align: left;
+}
+
+.break li{
+  font-weight: 500;
+}
+
+.hiring{
+  padding: 0 8%;
+}
+
+
+/* media tags */
+@media only screen and (max-width: 479px) {
+   .mobile-hide{
+     display: none !important;
+   }
+
+  .navbar-brand img{
+    width: 75px;
+    height:75px;
+  }
+  .container, .testomonial{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .portfolioimg{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 479px) {
+  .desktop-hide{
+    display: none !important;
+  }
+}

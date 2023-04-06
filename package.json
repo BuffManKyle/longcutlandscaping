@@ -1,0 +1,38 @@
+{
+  "name": "longcutlandscaping",
+  "version": "1.0.0",
+  "description": "Business website for Long Cut Landscaping LLC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "type": "module",
+  "author": "Kyle Katzenmaier",
+  "license": "ISC",
+  "engines": {
+    "node": "^16.14.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.85.0",
+    "@aws-sdk/credential-provider-node": "^3.85.0",
+    "alert": "^5.0.10",
+    "aws-sdk": "^2.1130.0",
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.1.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "heroku": "^7.33.3",
+    "https": "^1.0.0",
+    "lodash": "^4.17.21",
+    "mailto-link": "^2.0.0",
+    "nodemailer": "^6.7.4",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "sitemap": "^7.1.1",
+    "uuid": "^8.3.2",
+    "xml": "^1.0.1"
+  }
+}
